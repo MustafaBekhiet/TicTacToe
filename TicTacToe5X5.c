@@ -65,6 +65,7 @@ void render_playground(void){
 	printf("\n");
 	for(int i=0; i<5; i++)
 	{
+		printf("--------------------\n");
 		printf("%c | %c | %c | %c | %c |\n",playground[i][0],playground[i][1],playground[i][2],playground[i][3],playground[i][4]);
 	}
 }
